@@ -1,0 +1,27 @@
+{
+	"extends": [
+		"prettier"
+	],
+	"plugins": [
+		"prettier"
+	],
+	"globals": {
+		"JSX": true
+	},
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"quoteProps": "preserve",
+				"singleQuote": true,
+				"tabWidth": 2,
+				"trailingComma": "es5"
+			}
+		],
+		"prefer-const": "warn",
+		"no-console": ["warn", { "allow": [ "warn", "error" ] }]
+	},
+	"ignorePatterns": [
+		"**/lib/**/*"
+	]
+}
